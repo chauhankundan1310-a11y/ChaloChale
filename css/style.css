@@ -1,0 +1,22 @@
+/* Card hover effect */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Improve image display */
+.card-img-top {
+    width: 100%;
+}
+
+/* Responsive padding for small screens */
+@media (max-width: 576px) {
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
